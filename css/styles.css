@@ -131,10 +131,6 @@
     background-color: var(--conteiner-bg-color);
   }
 
-  .container-team {
-    background-color: var(--secondary-background-color);
-  }
-
   .profession {
     font-size: 16px;
     line-height: 1.19;
