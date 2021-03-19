@@ -8,7 +8,27 @@
     --title-color: #212121;
     --logo-color: #000000;  
   }
+
+  html {
+    box-sizing: border-box;
+  }
   
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-top: 0;
+}
+
   ul{
       list-style: none;
   }
@@ -24,12 +44,48 @@
   }
     
   .list {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
     list-style: none;
   }
   
   .link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--main-text-color);
+  }
+
+  .link:hover, 
+  .link:focus {
+    color: var(--accent-color)
+  }
+
+  .menu {
+    display: inline-flex;
+  }
+
+  .menu-item {
+    margin-right: 40px;
+  }
+
+  .header .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .header .logo {
+      margin-right: 70px;
+  }
+
+  .navigation {
+      display: flex;
+      align-items: center;
   }
 
   .location {
@@ -69,33 +125,14 @@
   
   /* навигация сайта */
   
-  .site-nav .link {
+  .link {
     text-decoration: none;
     color: var(--title-color);
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.03em;
     line-height: 1.14;
-    
-  }
-  .auth-nav .link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--main-text-color);
-  }
-  
-  .link.current {
-    color: var(--accent-color);
-  }
-  
-  .site-nav .link:hover,
-  .site-nav .link:focus,
-  .auth-nav .link:hover,
-  .auth-nav .link:focus {
-    color: var(--accent-color);
-  }
+  } 
   
   /* баннер Герой */
   
@@ -128,7 +165,23 @@
     align-items: center;
     letter-spacing: 0.06em;
     color: var(--main-color);
+  }
+  
+  .container_banner {
+    width: auto;
+    height: 600px;
+    left: 0px;
+    top: 80px;
     background-color: var(--conteiner-bg-color);
+  }
+
+  .container_footer {
+    width: auto;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background-color: var(--conteiner-bg-color);
+    padding: 70px;
   }
 
   .profession {
@@ -167,6 +220,7 @@
   
   /*кнопка индекс*/
   .button {
+    border: 1px solid var(--accent-color);
     font-weight: bold;
     font-size: 16px;
     line-height: 1.88;
