@@ -118,7 +118,6 @@
   }
 
   .link {
-    
     text-decoration: none;
     color: var(--title-color);
     font-weight: 500;
@@ -127,17 +126,28 @@
     line-height: 1.14;
   } 
 
+  .link-nav {
+    margin-left: 40px;
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.14;
+  }
+
+
   .header .container {
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      margin-left: 64px;
+      margin: 16px 40px 16px 40px;
   }
 
-  .header .container {
+  /*.header .container {
       margin-right: 70px;
   }
-
+ */
   .navigation {
       display: flex;
       align-items: center;
@@ -185,6 +195,10 @@
   }
   
   .container_banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     width: auto;
     height: 600px;
     left: 0px;
@@ -243,6 +257,9 @@
 
   /*кнопка индекс*/
   .button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     min-width: 160px;
     padding: 12px 20px;
     border: 0px solid var(--accent-color);
@@ -252,12 +269,31 @@
     line-height: 1.33;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    color: var(--title-color);
+    background: var(--accent-color);
+    color: var(--main-color);
     cursor: pointer;
+  }
+
+  .button_0 {
+    display: block;
+    min-width: 160px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+    cursor: pointer;
+  }
+
+  .button_0:hover {
+    color: var(--accent-color);
   }
 
   /*кнопка индекс*/
   .button:hover {
+    background: var(--main-color);
+    color: var(--logo-color);
     border: 0;
   }
   /*кнопка портфолио*/
