@@ -258,8 +258,6 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    width: auto;
-    height: 600px;
     background-color: var(--conteiner-bg-color);
   }
 
