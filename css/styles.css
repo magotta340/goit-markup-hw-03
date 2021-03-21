@@ -186,10 +186,11 @@
     display: flex;
     justify-content: center;
     margin: 50px;
-
   }
 
-  .text-list {
+  .text-ul {
+    display: flex;
+    padding: 100px;
     font-family: Roboto;
     font-style: 400;
     font-weight: 400;
@@ -197,6 +198,28 @@
     flex-basis: calc((100% - 30px * 4) / 3);
     margin-left: 10px;
     margin-top:  10px;
+  }
+
+  .text-p {
+    font-family: Roboto;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+  }
+
+  .text-h {
+    padding-right: 40px;
+    font-family: Roboto;
+    font-style: 400;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
   }
 
   .works {
@@ -312,7 +335,7 @@
     padding: 12px 20px;
     border: 0px;
     background: var(--accent-color);
-    color: var(--main-color);   
+    color: var(--main-color);      
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
   }
