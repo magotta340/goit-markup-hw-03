@@ -5,6 +5,7 @@
     --secondary-background-color: #f5f4fa;
     --button-bg-color: #F5F4FA;
     --accent-color: #2196f3;
+    --accent-dark-color: #188CE8;
     --main-text-color: #757575;
     --title-color: #212121;
     --logo-color: #000000;  
@@ -36,12 +37,12 @@
   
   body {
     /* font-family: 'Raleway', sans-serif; */
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--title-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
   }
     
   .list {
@@ -69,7 +70,7 @@
   }
 
   .page-header .logo {
-      margin-right: 70px;
+    margin-right: 70px;
   }
 
   .location {
@@ -324,28 +325,30 @@
 
   /*кнопка индекс*/
   .button {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    min-width: 160px;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
     padding: 12px 20px;
+    letter-spacing: 0.06em;
     border: 0px;
-    background: var(--accent-color);
-    color: var(--main-color);      
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    background: var(--accent-color);
+    color: var(--main-color); 
   }
 
   .button_0 {
     display: block;
-    min-width: 160px;
     font-weight: 600;
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.09em;
-    text-transform: uppercase;
-    color: var(--main-text-color);
     cursor: pointer;
+    color: var(--main-text-color);
   }
 
   .button_0:hover {
@@ -354,24 +357,39 @@
 
   /*кнопка индекс*/
   .button:hover {
-    background: var(--main-color);
-    color: var(--logo-color);
-    border: 0;
-  }
-  /*кнопка портфолио*/
-
-  .button_2 {
-    background: var(--button-bg-color);
-    width: 128px;
-    height: 38px;
-    left: 576px;
-    top: 174px;
+    display: flex;
+    font-family: Roboto;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     border: 0;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
                 0px 1px 2px rgba(0, 0, 0, 0.08),
                 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    border: 0px;
+    background: var(--accent-dark-color);
+    color: var(--button-bg-color);
+  }
+  /*кнопка портфолио*/
+
+  .button_2 {
+    min-width: 73px;
+    height: 38px;
+    font-family: Roboto;
+    font-style: 400;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    border: 0;
+    border-radius: 4px;
+    background: var(--button-bg-color);
+    padding: 6px 22px;
+    text-align: center;
+    letter-spacing: 0.03em;
   }
 
    /*кнопка портфолио*/
@@ -380,6 +398,10 @@
     background: var(--accent-color);
     color: var(--main-color);
     border: 0;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+                0px 1px 2px rgba(0, 0, 0, 0.08),
+                0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
   }
 
    /*кнопка портфолио*/
@@ -391,7 +413,7 @@
   
   .buttons-list {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     margin-right: 10px;
     margin-bottom: 10px;
