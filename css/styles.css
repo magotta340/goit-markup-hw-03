@@ -1,16 +1,4 @@
 
-/* цвет основного текста #212121 */
-/* цвет вторичный #757575 */
-/* белый #FFFFFF */
-/* акцент #2196F3 */
-/* акцент адрес rgba(255, 255, 255, 0.6) */
-/* bg задний фон #E5E5E5 */
-/* bg основа документа ##FFFFFF */
-/* bg вторичный #2F303A */
-/* bg акцент #F5F4FA */
-/* шрифт лого Raleway 700*/
-/* шрифт текста Roboto 900 700 500 400*/
-
 :root {
   --accent-color: #2196f3;
   --text-title-color: #212121;
@@ -98,7 +86,7 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-/* site nav */
+/* Сайт контейнер */
 
 .page-header .container {
   display: flex;
@@ -185,7 +173,7 @@ img {
   margin-bottom: 9px;
 }
 
-/* +footer address */
+/* Подвал-адресс */
 .address-contacts:hover,
 .address-contacts:focus {
   color: var(--accent-color);
@@ -204,7 +192,7 @@ img {
   color: var(--primary-white-color);
 }
 
-/* section */
+/* Секция */
 .page-header {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -258,7 +246,7 @@ img {
   min-width: 200px;
 }
 
-/* section Чем мы занимаемся описани */
+/* Чем мы занимаемся описани */
 
 .section {
   padding-top: 94px;
@@ -303,7 +291,7 @@ img {
   margin-bottom: 0;
 }
 
-/* section Чем мы занимаемся foto */
+/* Чем мы занимаемся foto */
 .section-foto {
   padding: 0;
   margin: 0;
@@ -319,7 +307,7 @@ img {
   margin-left: var(--section-foto-set-gap);
 }
 
-/* section Чем мы занимаемся */
+/* Чем мы занимаемся */
 
 .section.team {
   background-color: var(--accent-bg-color);
@@ -367,7 +355,7 @@ img {
   margin-bottom: 0;
 }
 
-/* footer */
+/* Подвал */
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
@@ -378,9 +366,9 @@ img {
   margin-bottom: 20px;
 }
 
-/* portfolio */
+/* Портфолио */
 
-/* button */
+/* Кнопки */
 
 .portfolio {
   padding-top: 94px;
@@ -438,7 +426,7 @@ img {
 .button:hover {
     background-color: #188ce8;
 }
-/* filter */
+/* Фильтр */
 
 .filter-item {
   padding: 0;
