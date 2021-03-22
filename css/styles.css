@@ -409,7 +409,12 @@
 	top:1px;
   }
 
-  /*Портфолио*/ 
+  /*Портфолио*/
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  } 
   
   .buttons-list {
     display: flex;
