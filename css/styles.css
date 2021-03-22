@@ -283,10 +283,6 @@
   }
 
   .container_footer {
-    width: auto;
-    height: 252px;
-    left: 0px;
-    top: 2097px;
     background-color: var(--conteiner-bg-color);
     padding: 70px;
   }
