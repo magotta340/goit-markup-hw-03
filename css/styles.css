@@ -423,23 +423,22 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 50px;
   }
 
   .cards-item {
-    flex-basis: calc((100% - 42px * 9) / 3);
-    justify-content: center;
-    text-align: left;
-    
     margin-top:  30px;
     margin-right: 30px;
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
     box-sizing: border-box;
   }
 
+  .cards-box {
+    padding: 20px 24px;
+    border: 1px solid #eeeeee;
+    border-top: none;
+  }
+
   .cards-t {
-    padding: 0px 20px;
     font-family: Roboto;
     font-style: 400;
     font-weight: 400;
@@ -450,7 +449,6 @@
   }
 
   .cards-h {
-    padding: 0px 20px;
     font-family: Roboto;
     font-style: 400;
     font-weight: 700;
